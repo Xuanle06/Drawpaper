@@ -1,9 +1,21 @@
 ：is
-：-condition
+:-condition
 $quote from
 @self-order
 {}Menge
 ;partition
+
 w : upwards
 m ：downwards
-S ：story，something come from truth but factly not true ,genernal order intergrate some soul ,like painting
+
+S :story，something come from true but factly not true ,genernal order intergrate some soul ,like painting
+T :-{S;true}
+not:-{S;@}
+F :-{S;true;not}
+
+t:{S;${T}}
+no:{S;${not}}
+f:{S;${F}}
+
+[] :{{};@;$}
+[S]:{m;@;w}
