@@ -19,3 +19,11 @@ f:{S;${F}}
 
 [] :{{};@;$}
 [S]:{m;@;w}
+
+time:-{T;@;t;w}
+e:{[S];S}           element
+
+max:-[w;e]
+min:-[m;e]
+
+linear:[{e}]
